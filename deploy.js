@@ -33,7 +33,7 @@ const web3 = new Web3(
 
 // Replace 'YOUR_PRIVATE_KEY' with your private key
 const privateKey =
-  "0x627dbd15ceac53ddb912b13c521a82dc25f8f6e36e26562459220ef03caa65ae";
+  "";
 // const privateKeyBuffer = Buffer.from(privateKey, 'hex')
 // Create an account object from the private key
 const account = web3.eth.accounts.privateKeyToAccount(privateKey);
